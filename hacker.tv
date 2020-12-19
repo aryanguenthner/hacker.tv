@@ -1,8 +1,15 @@
-# Hypnotix Free TV on Kali 2020.4
+# Hypnotix Free TV on Kali 2020.4 VM
+* Tested on Kali 2020.4
 # OSINT
-# 12/17/2020
+# 12/19/2020
+# Learn More @ https://github.com/aryanguenthner
+# Usage: Click the Kali Dragon Menu Icon - located in the upper left corner, type hypntoix and press enter.
+
+echo "Installation and Setup"
+echo "cd /opt && https://github.com/aryanguenthner/hacker.tv && cd hacker.tv && bash hacker.tv"
 
 sudo apt update
+
 echo "Hacker TV"
 
 sudo apt -y install libmpv1 gir1.2-xapp-1.0 debhelper python3-setproctitle dpkg-dev git
@@ -18,5 +25,5 @@ sudo dpkg -i ../hypnotix*.deb
 
 
 sudo hypnotix &
-echo
+
 # Hacker Hacker
